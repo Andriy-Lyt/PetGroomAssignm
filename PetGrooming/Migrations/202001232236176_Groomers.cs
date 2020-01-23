@@ -1,9 +1,9 @@
-﻿namespace PetGrooming.Migrations
+﻿basenamespace PetGrooming.Migrations
 {
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class groomer : DbMigration
+    public partial class Groomers : DbMigration
     {
         public override void Up()
         {

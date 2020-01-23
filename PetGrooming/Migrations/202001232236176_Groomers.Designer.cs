@@ -7,13 +7,13 @@ namespace PetGrooming.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.0")]
-    public sealed partial class groomer : IMigrationMetadata
+    public sealed partial class Groomers : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(groomer));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(Groomers));
         
         string IMigrationMetadata.Id
         {
-            get { return "202001162233218_groomer"; }
+            get { return "202001232236176_Groomers"; }
         }
         
         string IMigrationMetadata.Source
